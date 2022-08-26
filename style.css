@@ -1,0 +1,47 @@
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40 px;
+    height: 150 vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+}
+
+
+
+input[type= "submit"]{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 23 px;
+    border: 1px solid #01d12e;
+    color: black;
+    padding: 10px 20px
+}
+
+input[type = "submit"]:hover {
+    background: #6cf0c2;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+.info-form {
+    background-color: aqua;
+    padding: 2rem;
+}
+.list-container {
+    display:flex;
+}
+.title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+}
